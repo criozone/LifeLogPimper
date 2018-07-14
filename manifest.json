@@ -1,0 +1,25 @@
+{
+    "manifest_version":2,
+    "name":"LifeLog Pimper",
+    "version": "1.0",
+    "description":"Testing",
+    "permissions":[
+        "storage",
+        "tabs",
+        "identity"
+    ],
+    "page_action":{
+        "default_title":"Life Log Pimper!"
+    },
+    "background": {
+        "scripts": ["js/backgroundEvents.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://ersties.com/*"],
+            "js": ["js/jquery-3.3.1.min.js", "js/content.js"],
+            "css": ["css/content.css"]
+        }
+    ]
+}

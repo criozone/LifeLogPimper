@@ -1,0 +1,15 @@
+form table.list tr.checkbox-selected {
+    background-color: burlywood;
+}
+td.date, td.type, td.check, th.date, th.type, th:first-child {
+    cursor: pointer;
+}
+
+#content.fix-form #form_group_same_message, #content.fix-form #form_group {
+	position: fixed;
+	background-color: white;
+	/*width: 95%;*/
+	left: 170px;
+	top: 34px;
+	right: 15px;
+}
