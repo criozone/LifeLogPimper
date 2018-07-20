@@ -17,7 +17,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://ersties.com/*"],
+            "matches": ["https://ersties.com/*", "https://dev1.ersties.com/*", "https://lustery.com/*"],
             "js": ["js/jquery-3.3.1.min.js", "js/content.js"],
             "css": ["css/content.css"]
         }
